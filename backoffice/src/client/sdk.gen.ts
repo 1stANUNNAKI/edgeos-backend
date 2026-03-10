@@ -3,7 +3,7 @@
 import type { CancelablePromise } from './core/CancelablePromise';
 import { OpenAPI } from './core/OpenAPI';
 import { request as __request } from './core/request';
-import type { ApplicationReviewsListReviewsData, ApplicationReviewsListReviewsResponse, ApplicationReviewsSubmitReviewData, ApplicationReviewsSubmitReviewResponse, ApplicationReviewsGetReviewSummaryData, ApplicationReviewsGetReviewSummaryResponse, ApplicationReviewsListPendingReviewsData, ApplicationReviewsListPendingReviewsResponse, ApplicationReviewsListMyReviewsData, ApplicationReviewsListMyReviewsResponse, ApplicationsListApplicationsData, ApplicationsListApplicationsResponse, ApplicationsCreateApplicationAdminData, ApplicationsCreateApplicationAdminResponse, ApplicationsGetApplicationData, ApplicationsGetApplicationResponse, ApplicationsUpdateApplicationAdminData, ApplicationsUpdateApplicationAdminResponse, ApplicationsDeleteApplicationData, ApplicationsDeleteApplicationResponse, ApplicationsListMyApplicationsData, ApplicationsListMyApplicationsResponse, ApplicationsListMyTicketsResponse, ApplicationsGetMyApplicationData, ApplicationsGetMyApplicationResponse, ApplicationsUpdateMyApplicationData, ApplicationsUpdateMyApplicationResponse, ApplicationsCreateMyApplicationData, ApplicationsCreateMyApplicationResponse, ApplicationsAddMyAttendeeData, ApplicationsAddMyAttendeeResponse, ApplicationsUpdateMyAttendeeData, ApplicationsUpdateMyAttendeeResponse, ApplicationsDeleteMyAttendeeData, ApplicationsDeleteMyAttendeeResponse, ApprovalStrategiesGetApprovalStrategyData, ApprovalStrategiesGetApprovalStrategyResponse, ApprovalStrategiesCreateOrUpdateApprovalStrategyData, ApprovalStrategiesCreateOrUpdateApprovalStrategyResponse, ApprovalStrategiesUpdateApprovalStrategyData, ApprovalStrategiesUpdateApprovalStrategyResponse, ApprovalStrategiesDeleteApprovalStrategyData, ApprovalStrategiesDeleteApprovalStrategyResponse, AttendeesListAttendeesData, AttendeesListAttendeesResponse, AttendeesGetAttendeeData, AttendeesGetAttendeeResponse, AttendeesUpdateAttendeeData, AttendeesUpdateAttendeeResponse, AttendeesDeleteAttendeeData, AttendeesDeleteAttendeeResponse, AttendeesGetByCheckInCodeData, AttendeesGetByCheckInCodeResponse, AttendeesGetTicketsByEmailData, AttendeesGetTicketsByEmailResponse, AuthUserLoginData, AuthUserLoginResponse, AuthUserAuthenticateData, AuthUserAuthenticateResponse, AuthHumanLoginData, AuthHumanLoginResponse, AuthHumanAuthenticateData, AuthHumanAuthenticateResponse, CouponsListCouponsData, CouponsListCouponsResponse, CouponsCreateCouponData, CouponsCreateCouponResponse, CouponsGetCouponData, CouponsGetCouponResponse, CouponsUpdateCouponData, CouponsUpdateCouponResponse, CouponsDeleteCouponData, CouponsDeleteCouponResponse, CouponsValidateCouponData, CouponsValidateCouponResponse, DashboardGetDashboardStatsData, DashboardGetDashboardStatsResponse, EmailTemplatesListTemplateTypesResponse, EmailTemplatesGetDefaultTemplateData, EmailTemplatesGetDefaultTemplateResponse, EmailTemplatesPreviewTemplateData, EmailTemplatesPreviewTemplateResponse, EmailTemplatesSendTestEmailData, EmailTemplatesSendTestEmailResponse, EmailTemplatesListEmailTemplatesData, EmailTemplatesListEmailTemplatesResponse, EmailTemplatesCreateEmailTemplateData, EmailTemplatesCreateEmailTemplateResponse, EmailTemplatesGetEmailTemplateData, EmailTemplatesGetEmailTemplateResponse, EmailTemplatesUpdateEmailTemplateData, EmailTemplatesUpdateEmailTemplateResponse, EmailTemplatesDeleteEmailTemplateData, EmailTemplatesDeleteEmailTemplateResponse, FormFieldsListFormFieldsData, FormFieldsListFormFieldsResponse, FormFieldsCreateFormFieldData, FormFieldsCreateFormFieldResponse, FormFieldsGetFormFieldData, FormFieldsGetFormFieldResponse, FormFieldsUpdateFormFieldData, FormFieldsUpdateFormFieldResponse, FormFieldsDeleteFormFieldData, FormFieldsDeleteFormFieldResponse, FormFieldsGetApplicationSchemaData, FormFieldsGetApplicationSchemaResponse, GroupsListGroupsData, GroupsListGroupsResponse, GroupsCreateGroupData, GroupsCreateGroupResponse, GroupsGetGroupData, GroupsGetGroupResponse, GroupsUpdateGroupData, GroupsUpdateGroupResponse, GroupsDeleteGroupData, GroupsDeleteGroupResponse, GroupsListMyGroupsData, GroupsListMyGroupsResponse, GroupsGetMyGroupData, GroupsGetMyGroupResponse, GroupsUpdateMyGroupData, GroupsUpdateMyGroupResponse, GroupsAddGroupMemberData, GroupsAddGroupMemberResponse, GroupsAddGroupMembersBatchData, GroupsAddGroupMembersBatchResponse, GroupsUpdateGroupMemberData, GroupsUpdateGroupMemberResponse, GroupsRemoveGroupMemberData, GroupsRemoveGroupMemberResponse, GroupsGetGroupPublicData, GroupsGetGroupPublicResponse, HumansListHumansData, HumansListHumansResponse, HumansCreateHumanData, HumansCreateHumanResponse, HumansGetCurrentHumanInfoResponse, HumansGetHumanData, HumansGetHumanResponse, HumansUpdateHumanData, HumansUpdateHumanResponse, PaymentsListPaymentsData, PaymentsListPaymentsResponse, PaymentsGetPaymentData, PaymentsGetPaymentResponse, PaymentsUpdatePaymentData, PaymentsUpdatePaymentResponse, PaymentsApprovePaymentData, PaymentsApprovePaymentResponse, PaymentsListMyPaymentsData, PaymentsListMyPaymentsResponse, PaymentsPreviewMyPaymentData, PaymentsPreviewMyPaymentResponse, PaymentsCreateMyPaymentData, PaymentsCreateMyPaymentResponse, PaymentsSimplefiWebhookData, PaymentsSimplefiWebhookResponse, PopupReviewersListReviewersData, PopupReviewersListReviewersResponse, PopupReviewersAddReviewerData, PopupReviewersAddReviewerResponse, PopupReviewersUpdateReviewerData, PopupReviewersUpdateReviewerResponse, PopupReviewersRemoveReviewerData, PopupReviewersRemoveReviewerResponse, PopupsListPopupsData, PopupsListPopupsResponse, PopupsCreatePopupData, PopupsCreatePopupResponse, PopupsGetPopupData, PopupsGetPopupResponse, PopupsUpdatePopupData, PopupsUpdatePopupResponse, PopupsDeletePopupData, PopupsDeletePopupResponse, ProductsListProductsData, ProductsListProductsResponse, ProductsCreateProductData, ProductsCreateProductResponse, ProductsCreateProductsBatchData, ProductsCreateProductsBatchResponse, ProductsGetProductData, ProductsGetProductResponse, ProductsUpdateProductData, ProductsUpdateProductResponse, ProductsDeleteProductData, ProductsDeleteProductResponse, TenantsListTenantsData, TenantsListTenantsResponse, TenantsCreateTenantData, TenantsCreateTenantResponse, TenantsGetTenantData, TenantsGetTenantResponse, TenantsUpdateTenantData, TenantsUpdateTenantResponse, TenantsDeleteTenantData, TenantsDeleteTenantResponse, TenantsGetCredentialsData, TenantsGetCredentialsResponse, TenantsDeleteCredentialsData, TenantsDeleteCredentialsResponse, UploadsGetPresignedUploadUrlData, UploadsGetPresignedUploadUrlResponse, UsersListUsersData, UsersListUsersResponse, UsersCreateUserData, UsersCreateUserResponse, UsersGetCurrentUserInfoResponse, UsersGetUserData, UsersGetUserResponse, UsersUpdateUserData, UsersUpdateUserResponse, UsersDeleteUserData, UsersDeleteUserResponse } from './types.gen';
+import type { ApplicationReviewsListReviewsData, ApplicationReviewsListReviewsResponse, ApplicationReviewsSubmitReviewData, ApplicationReviewsSubmitReviewResponse, ApplicationReviewsGetReviewSummaryData, ApplicationReviewsGetReviewSummaryResponse, ApplicationReviewsListPendingReviewsData, ApplicationReviewsListPendingReviewsResponse, ApplicationReviewsListMyReviewsData, ApplicationReviewsListMyReviewsResponse, ApplicationsListApplicationsData, ApplicationsListApplicationsResponse, ApplicationsCreateApplicationAdminData, ApplicationsCreateApplicationAdminResponse, ApplicationsGetApplicationData, ApplicationsGetApplicationResponse, ApplicationsUpdateApplicationAdminData, ApplicationsUpdateApplicationAdminResponse, ApplicationsDeleteApplicationData, ApplicationsDeleteApplicationResponse, ApplicationsListMyApplicationsData, ApplicationsListMyApplicationsResponse, ApplicationsListMyTicketsResponse, ApplicationsGetMyPurchasesData, ApplicationsGetMyPurchasesResponse, ApplicationsGetMyApplicationData, ApplicationsGetMyApplicationResponse, ApplicationsUpdateMyApplicationData, ApplicationsUpdateMyApplicationResponse, ApplicationsCreateMyApplicationData, ApplicationsCreateMyApplicationResponse, ApplicationsListAttendeesDirectoryData, ApplicationsListAttendeesDirectoryResponse, ApplicationsExportAttendeesDirectoryCsvData, ApplicationsExportAttendeesDirectoryCsvResponse, ApplicationsAddMyAttendeeData, ApplicationsAddMyAttendeeResponse, ApplicationsUpdateMyAttendeeData, ApplicationsUpdateMyAttendeeResponse, ApplicationsDeleteMyAttendeeData, ApplicationsDeleteMyAttendeeResponse, ApprovalStrategiesGetApprovalStrategyData, ApprovalStrategiesGetApprovalStrategyResponse, ApprovalStrategiesCreateOrUpdateApprovalStrategyData, ApprovalStrategiesCreateOrUpdateApprovalStrategyResponse, ApprovalStrategiesUpdateApprovalStrategyData, ApprovalStrategiesUpdateApprovalStrategyResponse, ApprovalStrategiesDeleteApprovalStrategyData, ApprovalStrategiesDeleteApprovalStrategyResponse, AttendeesListAttendeesData, AttendeesListAttendeesResponse, AttendeesGetAttendeeData, AttendeesGetAttendeeResponse, AttendeesUpdateAttendeeData, AttendeesUpdateAttendeeResponse, AttendeesDeleteAttendeeData, AttendeesDeleteAttendeeResponse, AttendeesGetByCheckInCodeData, AttendeesGetByCheckInCodeResponse, AttendeesGetTicketsByEmailData, AttendeesGetTicketsByEmailResponse, AuthUserLoginData, AuthUserLoginResponse, AuthUserAuthenticateData, AuthUserAuthenticateResponse, AuthHumanLoginData, AuthHumanLoginResponse, AuthHumanAuthenticateData, AuthHumanAuthenticateResponse, BaseFieldConfigsListBaseFieldConfigsData, BaseFieldConfigsListBaseFieldConfigsResponse, BaseFieldConfigsUpdateBaseFieldConfigData, BaseFieldConfigsUpdateBaseFieldConfigResponse, CartsListAbandonedCartsData, CartsListAbandonedCartsResponse, CartsGetMyCartData, CartsGetMyCartResponse, CartsUpdateMyCartData, CartsUpdateMyCartResponse, CartsDeleteMyCartData, CartsDeleteMyCartResponse, CouponsListCouponsData, CouponsListCouponsResponse, CouponsCreateCouponData, CouponsCreateCouponResponse, CouponsGetCouponData, CouponsGetCouponResponse, CouponsUpdateCouponData, CouponsUpdateCouponResponse, CouponsDeleteCouponData, CouponsDeleteCouponResponse, CouponsValidateCouponData, CouponsValidateCouponResponse, DashboardGetDashboardStatsData, DashboardGetDashboardStatsResponse, EmailTemplatesListTemplateTypesResponse, EmailTemplatesGetDefaultTemplateData, EmailTemplatesGetDefaultTemplateResponse, EmailTemplatesPreviewTemplateData, EmailTemplatesPreviewTemplateResponse, EmailTemplatesSendTestEmailData, EmailTemplatesSendTestEmailResponse, EmailTemplatesListEmailTemplatesData, EmailTemplatesListEmailTemplatesResponse, EmailTemplatesCreateEmailTemplateData, EmailTemplatesCreateEmailTemplateResponse, EmailTemplatesGetEmailTemplateData, EmailTemplatesGetEmailTemplateResponse, EmailTemplatesUpdateEmailTemplateData, EmailTemplatesUpdateEmailTemplateResponse, EmailTemplatesDeleteEmailTemplateData, EmailTemplatesDeleteEmailTemplateResponse, FormFieldsListFormFieldsData, FormFieldsListFormFieldsResponse, FormFieldsCreateFormFieldData, FormFieldsCreateFormFieldResponse, FormFieldsGetFormFieldData, FormFieldsGetFormFieldResponse, FormFieldsUpdateFormFieldData, FormFieldsUpdateFormFieldResponse, FormFieldsDeleteFormFieldData, FormFieldsDeleteFormFieldResponse, FormFieldsGetApplicationSchemaData, FormFieldsGetApplicationSchemaResponse, FormFieldsGetPortalApplicationSchemaData, FormFieldsGetPortalApplicationSchemaResponse, FormSectionsListFormSectionsData, FormSectionsListFormSectionsResponse, FormSectionsCreateFormSectionData, FormSectionsCreateFormSectionResponse, FormSectionsGetFormSectionData, FormSectionsGetFormSectionResponse, FormSectionsUpdateFormSectionData, FormSectionsUpdateFormSectionResponse, FormSectionsDeleteFormSectionData, FormSectionsDeleteFormSectionResponse, GroupsListGroupsData, GroupsListGroupsResponse, GroupsCreateGroupData, GroupsCreateGroupResponse, GroupsGetGroupData, GroupsGetGroupResponse, GroupsUpdateGroupData, GroupsUpdateGroupResponse, GroupsDeleteGroupData, GroupsDeleteGroupResponse, GroupsListMyGroupsData, GroupsListMyGroupsResponse, GroupsGetMyGroupData, GroupsGetMyGroupResponse, GroupsUpdateMyGroupData, GroupsUpdateMyGroupResponse, GroupsAddGroupMemberData, GroupsAddGroupMemberResponse, GroupsAddGroupMembersBatchData, GroupsAddGroupMembersBatchResponse, GroupsUpdateGroupMemberData, GroupsUpdateGroupMemberResponse, GroupsRemoveGroupMemberData, GroupsRemoveGroupMemberResponse, GroupsGetGroupPublicData, GroupsGetGroupPublicResponse, HumansListHumansData, HumansListHumansResponse, HumansCreateHumanData, HumansCreateHumanResponse, HumansGetCurrentHumanInfoResponse, HumansUpdateCurrentHumanData, HumansUpdateCurrentHumanResponse, HumansGetHumanData, HumansGetHumanResponse, HumansUpdateHumanData, HumansUpdateHumanResponse, PaymentsListPaymentsData, PaymentsListPaymentsResponse, PaymentsGetPaymentData, PaymentsGetPaymentResponse, PaymentsUpdatePaymentData, PaymentsUpdatePaymentResponse, PaymentsApprovePaymentData, PaymentsApprovePaymentResponse, PaymentsGetMyLatestPaymentData, PaymentsGetMyLatestPaymentResponse, PaymentsListMyPaymentsData, PaymentsListMyPaymentsResponse, PaymentsPreviewMyPaymentData, PaymentsPreviewMyPaymentResponse, PaymentsCreateMyPaymentData, PaymentsCreateMyPaymentResponse, PaymentsSimplefiWebhookResponse, PopupReviewersListReviewersData, PopupReviewersListReviewersResponse, PopupReviewersAddReviewerData, PopupReviewersAddReviewerResponse, PopupReviewersUpdateReviewerData, PopupReviewersUpdateReviewerResponse, PopupReviewersRemoveReviewerData, PopupReviewersRemoveReviewerResponse, PopupsListPopupsData, PopupsListPopupsResponse, PopupsCreatePopupData, PopupsCreatePopupResponse, PopupsGetPopupData, PopupsGetPopupResponse, PopupsUpdatePopupData, PopupsUpdatePopupResponse, PopupsDeletePopupData, PopupsDeletePopupResponse, PopupsListPortalPopupsResponse, PopupsGetPortalPopupData, PopupsGetPortalPopupResponse, ProductsListProductsData, ProductsListProductsResponse, ProductsCreateProductData, ProductsCreateProductResponse, ProductsCreateProductsBatchData, ProductsCreateProductsBatchResponse, ProductsGetProductData, ProductsGetProductResponse, ProductsUpdateProductData, ProductsUpdateProductResponse, ProductsDeleteProductData, ProductsDeleteProductResponse, ProductsListPortalProductsData, ProductsListPortalProductsResponse, TenantsGetTenantBySlugData, TenantsGetTenantBySlugResponse, TenantsListTenantsData, TenantsListTenantsResponse, TenantsCreateTenantData, TenantsCreateTenantResponse, TenantsGetTenantData, TenantsGetTenantResponse, TenantsUpdateTenantData, TenantsUpdateTenantResponse, TenantsDeleteTenantData, TenantsDeleteTenantResponse, TenantsGetCredentialsData, TenantsGetCredentialsResponse, TenantsDeleteCredentialsData, TenantsDeleteCredentialsResponse, UploadsGetPresignedUploadUrlData, UploadsGetPresignedUploadUrlResponse, UsersListUsersData, UsersListUsersResponse, UsersCreateUserData, UsersCreateUserResponse, UsersGetCurrentUserInfoResponse, UsersGetUserData, UsersGetUserResponse, UsersUpdateUserData, UsersUpdateUserResponse, UsersDeleteUserData, UsersDeleteUserResponse } from './types.gen';
 
 export class ApplicationReviewsService {
     /**
@@ -339,6 +339,27 @@ export class ApplicationsService {
     }
     
     /**
+     * Get My Purchases
+     * Get purchased products grouped by attendee for a popup (Portal).
+     * @param data The data for the request.
+     * @param data.popupId
+     * @returns AttendeePurchases Successful Response
+     * @throws ApiError
+     */
+    public static getMyPurchases(data: ApplicationsGetMyPurchasesData): CancelablePromise<ApplicationsGetMyPurchasesResponse> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/api/v1/applications/my/{popup_id}/purchases',
+            path: {
+                popup_id: data.popupId
+            },
+            errors: {
+                422: 'Validation Error'
+            }
+        });
+    }
+    
+    /**
      * Get My Application
      * Get current human's application for a popup (Portal).
      * @param data The data for the request.
@@ -397,6 +418,73 @@ export class ApplicationsService {
             url: '/api/v1/applications/my',
             body: data.requestBody,
             mediaType: 'application/json',
+            errors: {
+                422: 'Validation Error'
+            }
+        });
+    }
+    
+    /**
+     * List Attendees Directory
+     * List attendees directory for a popup (Portal).
+     *
+     * Returns accepted/in-review applications with at least one product.
+     * Respects info_not_shared masking.
+     * @param data The data for the request.
+     * @param data.popupId
+     * @param data.skip Number of items to skip
+     * @param data.limit Maximum number of items to return
+     * @param data.q
+     * @param data.bringsKids
+     * @param data.participation
+     * @returns ListModel_AttendeesDirectoryEntry_ Successful Response
+     * @throws ApiError
+     */
+    public static listAttendeesDirectory(data: ApplicationsListAttendeesDirectoryData): CancelablePromise<ApplicationsListAttendeesDirectoryResponse> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/api/v1/applications/my/directory/{popup_id}',
+            path: {
+                popup_id: data.popupId
+            },
+            query: {
+                skip: data.skip,
+                limit: data.limit,
+                q: data.q,
+                brings_kids: data.bringsKids,
+                participation: data.participation
+            },
+            errors: {
+                422: 'Validation Error'
+            }
+        });
+    }
+    
+    /**
+     * Export Attendees Directory Csv
+     * Export attendees directory as CSV (Portal).
+     *
+     * No pagination — fetches all matching entries.
+     * @param data The data for the request.
+     * @param data.popupId
+     * @param data.q
+     * @param data.bringsKids
+     * @param data.participation
+     * @returns unknown Successful Response
+     * @throws ApiError
+     */
+    public static exportAttendeesDirectoryCsv(data: ApplicationsExportAttendeesDirectoryCsvData): CancelablePromise<ApplicationsExportAttendeesDirectoryCsvResponse> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/api/v1/applications/my/directory/{popup_id}/csv',
+            path: {
+                popup_id: data.popupId
+            },
+            query: {
+                q: data.q,
+                brings_kids: data.bringsKids,
+                participation: data.participation
+            },
             errors: {
                 422: 'Validation Error'
             }
@@ -593,6 +681,7 @@ export class AttendeesService {
      * @param data.applicationId
      * @param data.popupId
      * @param data.email
+     * @param data.search
      * @param data.skip Number of items to skip
      * @param data.limit Maximum number of items to return
      * @param data.xTenantId
@@ -610,6 +699,7 @@ export class AttendeesService {
                 application_id: data.applicationId,
                 popup_id: data.popupId,
                 email: data.email,
+                search: data.search,
                 skip: data.skip,
                 limit: data.limit
             },
@@ -824,6 +914,156 @@ export class AuthService {
             url: '/api/v1/auth/human/authenticate',
             body: data.requestBody,
             mediaType: 'application/json',
+            errors: {
+                422: 'Validation Error'
+            }
+        });
+    }
+}
+
+export class BaseFieldConfigsService {
+    /**
+     * List Base Field Configs
+     * @param data The data for the request.
+     * @param data.popupId Filter by popup ID
+     * @param data.xTenantId
+     * @returns BaseFieldConfigPublic Successful Response
+     * @throws ApiError
+     */
+    public static listBaseFieldConfigs(data: BaseFieldConfigsListBaseFieldConfigsData): CancelablePromise<BaseFieldConfigsListBaseFieldConfigsResponse> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/api/v1/base-field-configs',
+            headers: {
+                'X-Tenant-Id': data.xTenantId
+            },
+            query: {
+                popup_id: data.popupId
+            },
+            errors: {
+                422: 'Validation Error'
+            }
+        });
+    }
+    
+    /**
+     * Update Base Field Config
+     * @param data The data for the request.
+     * @param data.configId
+     * @param data.requestBody
+     * @param data.xTenantId
+     * @returns BaseFieldConfigPublic Successful Response
+     * @throws ApiError
+     */
+    public static updateBaseFieldConfig(data: BaseFieldConfigsUpdateBaseFieldConfigData): CancelablePromise<BaseFieldConfigsUpdateBaseFieldConfigResponse> {
+        return __request(OpenAPI, {
+            method: 'PATCH',
+            url: '/api/v1/base-field-configs/{config_id}',
+            path: {
+                config_id: data.configId
+            },
+            headers: {
+                'X-Tenant-Id': data.xTenantId
+            },
+            body: data.requestBody,
+            mediaType: 'application/json',
+            errors: {
+                422: 'Validation Error'
+            }
+        });
+    }
+}
+
+export class CartsService {
+    /**
+     * List Abandoned Carts
+     * List all abandoned carts with human, popup and payment info (BO only).
+     * @param data The data for the request.
+     * @param data.popupId
+     * @param data.skip Number of items to skip
+     * @param data.limit Maximum number of items to return
+     * @param data.xTenantId
+     * @returns ListModel_AbandonedCartPublic_ Successful Response
+     * @throws ApiError
+     */
+    public static listAbandonedCarts(data: CartsListAbandonedCartsData = {}): CancelablePromise<CartsListAbandonedCartsResponse> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/api/v1/carts',
+            headers: {
+                'X-Tenant-Id': data.xTenantId
+            },
+            query: {
+                popup_id: data.popupId,
+                skip: data.skip,
+                limit: data.limit
+            },
+            errors: {
+                422: 'Validation Error'
+            }
+        });
+    }
+    
+    /**
+     * Get My Cart
+     * Get cart for current human and popup (Portal). Returns null if none exists.
+     * @param data The data for the request.
+     * @param data.popupId
+     * @returns unknown Successful Response
+     * @throws ApiError
+     */
+    public static getMyCart(data: CartsGetMyCartData): CancelablePromise<CartsGetMyCartResponse> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/api/v1/carts/my/{popup_id}',
+            path: {
+                popup_id: data.popupId
+            },
+            errors: {
+                422: 'Validation Error'
+            }
+        });
+    }
+    
+    /**
+     * Update My Cart
+     * Replace cart items for current human and popup (Portal).
+     * @param data The data for the request.
+     * @param data.popupId
+     * @param data.requestBody
+     * @returns CartPublic Successful Response
+     * @throws ApiError
+     */
+    public static updateMyCart(data: CartsUpdateMyCartData): CancelablePromise<CartsUpdateMyCartResponse> {
+        return __request(OpenAPI, {
+            method: 'PUT',
+            url: '/api/v1/carts/my/{popup_id}',
+            path: {
+                popup_id: data.popupId
+            },
+            body: data.requestBody,
+            mediaType: 'application/json',
+            errors: {
+                422: 'Validation Error'
+            }
+        });
+    }
+    
+    /**
+     * Delete My Cart
+     * Clear cart for current human and popup (Portal).
+     * @param data The data for the request.
+     * @param data.popupId
+     * @returns void Successful Response
+     * @throws ApiError
+     */
+    public static deleteMyCart(data: CartsDeleteMyCartData): CancelablePromise<CartsDeleteMyCartResponse> {
+        return __request(OpenAPI, {
+            method: 'DELETE',
+            url: '/api/v1/carts/my/{popup_id}',
+            path: {
+                popup_id: data.popupId
+            },
             errors: {
                 422: 'Validation Error'
             }
@@ -1375,6 +1615,155 @@ export class FormFieldsService {
             }
         });
     }
+    
+    /**
+     * Get Portal Application Schema
+     * Get the application form schema for a popup (Portal).
+     * @param data The data for the request.
+     * @param data.popupId
+     * @returns unknown Successful Response
+     * @throws ApiError
+     */
+    public static getPortalApplicationSchema(data: FormFieldsGetPortalApplicationSchemaData): CancelablePromise<FormFieldsGetPortalApplicationSchemaResponse> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/api/v1/form-fields/portal/schema/{popup_id}',
+            path: {
+                popup_id: data.popupId
+            },
+            errors: {
+                422: 'Validation Error'
+            }
+        });
+    }
+}
+
+export class FormSectionsService {
+    /**
+     * List Form Sections
+     * @param data The data for the request.
+     * @param data.popupId
+     * @param data.skip Number of items to skip
+     * @param data.limit Maximum number of items to return
+     * @param data.xTenantId
+     * @returns ListModel_FormSectionPublic_ Successful Response
+     * @throws ApiError
+     */
+    public static listFormSections(data: FormSectionsListFormSectionsData = {}): CancelablePromise<FormSectionsListFormSectionsResponse> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/api/v1/form-sections',
+            headers: {
+                'X-Tenant-Id': data.xTenantId
+            },
+            query: {
+                popup_id: data.popupId,
+                skip: data.skip,
+                limit: data.limit
+            },
+            errors: {
+                422: 'Validation Error'
+            }
+        });
+    }
+    
+    /**
+     * Create Form Section
+     * @param data The data for the request.
+     * @param data.requestBody
+     * @param data.xTenantId
+     * @returns FormSectionPublic Successful Response
+     * @throws ApiError
+     */
+    public static createFormSection(data: FormSectionsCreateFormSectionData): CancelablePromise<FormSectionsCreateFormSectionResponse> {
+        return __request(OpenAPI, {
+            method: 'POST',
+            url: '/api/v1/form-sections',
+            headers: {
+                'X-Tenant-Id': data.xTenantId
+            },
+            body: data.requestBody,
+            mediaType: 'application/json',
+            errors: {
+                422: 'Validation Error'
+            }
+        });
+    }
+    
+    /**
+     * Get Form Section
+     * @param data The data for the request.
+     * @param data.sectionId
+     * @param data.xTenantId
+     * @returns FormSectionPublic Successful Response
+     * @throws ApiError
+     */
+    public static getFormSection(data: FormSectionsGetFormSectionData): CancelablePromise<FormSectionsGetFormSectionResponse> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/api/v1/form-sections/{section_id}',
+            path: {
+                section_id: data.sectionId
+            },
+            headers: {
+                'X-Tenant-Id': data.xTenantId
+            },
+            errors: {
+                422: 'Validation Error'
+            }
+        });
+    }
+    
+    /**
+     * Update Form Section
+     * @param data The data for the request.
+     * @param data.sectionId
+     * @param data.requestBody
+     * @param data.xTenantId
+     * @returns FormSectionPublic Successful Response
+     * @throws ApiError
+     */
+    public static updateFormSection(data: FormSectionsUpdateFormSectionData): CancelablePromise<FormSectionsUpdateFormSectionResponse> {
+        return __request(OpenAPI, {
+            method: 'PATCH',
+            url: '/api/v1/form-sections/{section_id}',
+            path: {
+                section_id: data.sectionId
+            },
+            headers: {
+                'X-Tenant-Id': data.xTenantId
+            },
+            body: data.requestBody,
+            mediaType: 'application/json',
+            errors: {
+                422: 'Validation Error'
+            }
+        });
+    }
+    
+    /**
+     * Delete Form Section
+     * @param data The data for the request.
+     * @param data.sectionId
+     * @param data.xTenantId
+     * @returns void Successful Response
+     * @throws ApiError
+     */
+    public static deleteFormSection(data: FormSectionsDeleteFormSectionData): CancelablePromise<FormSectionsDeleteFormSectionResponse> {
+        return __request(OpenAPI, {
+            method: 'DELETE',
+            url: '/api/v1/form-sections/{section_id}',
+            path: {
+                section_id: data.sectionId
+            },
+            headers: {
+                'X-Tenant-Id': data.xTenantId
+            },
+            errors: {
+                422: 'Validation Error'
+            }
+        });
+    }
 }
 
 export class GroupsService {
@@ -1764,6 +2153,26 @@ export class HumansService {
     }
     
     /**
+     * Update Current Human
+     * Update the current authenticated human's profile.
+     * @param data The data for the request.
+     * @param data.requestBody
+     * @returns HumanPublic Successful Response
+     * @throws ApiError
+     */
+    public static updateCurrentHuman(data: HumansUpdateCurrentHumanData): CancelablePromise<HumansUpdateCurrentHumanResponse> {
+        return __request(OpenAPI, {
+            method: 'PATCH',
+            url: '/api/v1/humans/me',
+            body: data.requestBody,
+            mediaType: 'application/json',
+            errors: {
+                422: 'Validation Error'
+            }
+        });
+    }
+    
+    /**
      * Get Human
      * @param data The data for the request.
      * @param data.humanId
@@ -1930,6 +2339,27 @@ export class PaymentsService {
     }
     
     /**
+     * Get My Latest Payment
+     * Get the latest payment status for an application owned by current human (Portal).
+     * @param data The data for the request.
+     * @param data.applicationId
+     * @returns PaymentStatusCheck Successful Response
+     * @throws ApiError
+     */
+    public static getMyLatestPayment(data: PaymentsGetMyLatestPaymentData): CancelablePromise<PaymentsGetMyLatestPaymentResponse> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/api/v1/payments/my/latest',
+            query: {
+                application_id: data.applicationId
+            },
+            errors: {
+                422: 'Validation Error'
+            }
+        });
+    }
+    
+    /**
      * List My Payments
      * List payments for an application owned by current human (Portal).
      * @param data The data for the request.
@@ -1983,13 +2413,12 @@ export class PaymentsService {
      * Create a payment for current human's application (Portal).
      *
      * If the total is zero or negative (covered by credit), the products
-     * are immediately assigned and no payment record is created - returns
-     * PaymentPreview with approved status.
+     * are immediately assigned and the payment is auto-approved.
      *
-     * Otherwise, returns PaymentPublic with checkout URL.
+     * Otherwise, returns PaymentPublic with checkout URL for external payment.
      * @param data The data for the request.
      * @param data.requestBody
-     * @returns unknown Successful Response
+     * @returns PaymentPublic Successful Response
      * @throws ApiError
      */
     public static createMyPayment(data: PaymentsCreateMyPaymentData): CancelablePromise<PaymentsCreateMyPaymentResponse> {
@@ -2008,22 +2437,15 @@ export class PaymentsService {
      * Simplefi Webhook
      * Webhook endpoint for SimpleFI payment notifications.
      *
-     * Called by SimpleFI when payment status changes.
-     * Validates signature using the popup's simplefi_api_key.
-     * @param data The data for the request.
-     * @param data.requestBody
+     * Routes by event_type to handle regular payments, installment payments,
+     * and installment plan lifecycle events.
      * @returns unknown Successful Response
      * @throws ApiError
      */
-    public static simplefiWebhook(data: PaymentsSimplefiWebhookData): CancelablePromise<PaymentsSimplefiWebhookResponse> {
+    public static simplefiWebhook(): CancelablePromise<PaymentsSimplefiWebhookResponse> {
         return __request(OpenAPI, {
             method: 'POST',
-            url: '/api/v1/payments/webhook/simplefi',
-            body: data.requestBody,
-            mediaType: 'application/json',
-            errors: {
-                422: 'Validation Error'
-            }
+            url: '/api/v1/payments/webhook/simplefi'
         });
     }
 }
@@ -2272,6 +2694,40 @@ export class PopupsService {
             }
         });
     }
+    
+    /**
+     * List Portal Popups
+     * List active popups for the current human's tenant (Portal).
+     * @returns PopupPublic Successful Response
+     * @throws ApiError
+     */
+    public static listPortalPopups(): CancelablePromise<PopupsListPortalPopupsResponse> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/api/v1/popups/portal/list'
+        });
+    }
+    
+    /**
+     * Get Portal Popup
+     * Get a popup by slug (Portal).
+     * @param data The data for the request.
+     * @param data.slug
+     * @returns PopupPublic Successful Response
+     * @throws ApiError
+     */
+    public static getPortalPopup(data: PopupsGetPortalPopupData): CancelablePromise<PopupsGetPortalPopupResponse> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/api/v1/popups/portal/{slug}',
+            path: {
+                slug: data.slug
+            },
+            errors: {
+                422: 'Validation Error'
+            }
+        });
+    }
 }
 
 export class ProductsService {
@@ -2439,9 +2895,58 @@ export class ProductsService {
             }
         });
     }
+    
+    /**
+     * List Portal Products
+     * List products visible to the current human (Portal).
+     * @param data The data for the request.
+     * @param data.popupId
+     * @param data.isActive
+     * @param data.category
+     * @param data.skip Number of items to skip
+     * @param data.limit Maximum number of items to return
+     * @returns ListModel_ProductPublic_ Successful Response
+     * @throws ApiError
+     */
+    public static listPortalProducts(data: ProductsListPortalProductsData = {}): CancelablePromise<ProductsListPortalProductsResponse> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/api/v1/products/portal/products',
+            query: {
+                popup_id: data.popupId,
+                is_active: data.isActive,
+                category: data.category,
+                skip: data.skip,
+                limit: data.limit
+            },
+            errors: {
+                422: 'Validation Error'
+            }
+        });
+    }
 }
 
 export class TenantsService {
+    /**
+     * Get Tenant By Slug
+     * @param data The data for the request.
+     * @param data.slug
+     * @returns TenantPublic Successful Response
+     * @throws ApiError
+     */
+    public static getTenantBySlug(data: TenantsGetTenantBySlugData): CancelablePromise<TenantsGetTenantBySlugResponse> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/api/v1/tenants/public/{slug}',
+            path: {
+                slug: data.slug
+            },
+            errors: {
+                422: 'Validation Error'
+            }
+        });
+    }
+    
     /**
      * List Tenants
      * @param data The data for the request.
