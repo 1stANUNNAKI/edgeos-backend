@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/assets/homepage-preview.png" alt="edgeos-backend — Home Page Preview" width="100%" />
+</p>
+
 # EdgeOS
 
 A multi-tenant SaaS platform for event management with a FastAPI backend, React-based backoffice dashboard, and a Next.js public-facing portal.
